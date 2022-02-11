@@ -8,8 +8,7 @@ then
 else
     echo "Did not find MarkdownParse.java"
 fi
-
-if [ ! -d "$lib" ]
+if [ ! -d "lib" ]
 then
     echo "No lib directory dummy"
 fi
